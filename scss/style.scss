@@ -8,9 +8,6 @@ $Guide-color: #007F7F;
 .custom-cursor {
     cursor: pointer; // 기본 포인터 커서
 
-    &:hover {
-        cursor: url('path/to/custom-cursor.png'), auto; // 커스텀 커서 이미지
-    }
 }
 
 @font-face {
